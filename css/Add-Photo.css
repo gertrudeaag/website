@@ -28,10 +28,16 @@
 }
 .button {
     background-color: blue;
+    text-decoration: none;
     color: white;
     margin-top: auto;
-    width: 120px;
+    width: 200px;
     height: 30px;
+    border: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .image {
     margin-bottom: 70%;
