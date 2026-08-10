@@ -1,0 +1,118 @@
+.project {
+    display:flex;
+    width:100%;
+    height:100vh;
+}
+.right {
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    height:100vh;
+    text-align:center;
+}
+.left {
+    background-color:blue;
+    width:50%;
+    height:100vh
+}
+.image {
+    width:100%;
+    height:100vh;
+    z-index: 1000;
+    position: relative;
+}
+.top-bar {
+    display:flex;
+    justify-content:space-between;
+    padding-left: 30px;
+    padding: 20px;
+}
+.icon {
+    display:flex;
+    align-items:center;
+}
+.circle{
+    position:absolute;
+    border-radius:50%;
+    background:rgba(255,255,255,.15);
+    z-index: 2;
+}
+.circle1{
+    width:180px;
+    height:180px;
+    left:1%;
+    top:2%;
+}
+
+.circle2{
+    width:105px;
+    height:105px;
+    top:105px;
+    left:33%;
+}
+
+.circle3{
+    width:115px;
+    height:115px;
+    top:510px;
+    left:40%;
+}
+.square {
+border-radius: 20%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.square1 {
+    width: 150px;
+    height:150px;
+    background-color: #e5c5d3;
+}
+.square2 {
+    width: 150px;
+    height:150px;
+    background-color: #cbe5c4;
+}
+.square3 {
+    width: 150px;
+    height:150px;
+    background-color: #e2c8b8;
+}
+.square4 {
+    width: 150px;
+    height:150px;
+    background-color:#c8d6e5;
+}
+.squares {
+ display: grid;
+grid-template-columns: repeat(2, auto);
+    gap:15px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    height: 25px;
+    background: transparent;
+    padding: 0 10px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    border-color: black;
+}
+.Cbtn {
+    display: block;
+    background-color: blue;
+    width:230px;
+    height: 30px;
+    color:  white;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+body {
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+}
