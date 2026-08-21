@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../css/user-interest.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-
 </head>
 
 <body>
@@ -20,10 +19,10 @@
         </div>
         <div class="right">
             <div class="top-bar">
-                <div class="icon">
-                    <span class="material-icons">arrow_back</span>
+                <button class="icon">
+                    <span class="material-icons" onclick="document.location='./Registration.html'">arrow_back</span>
                     <span>Back</span>
-                </div>
+                </button>
                 <span>Step 4 of 4</span>
                 <a href="../index.html">EXIT</a>
             </div>
@@ -34,24 +33,27 @@
 
                 <div class="square square1">
                     <h1>Gaming</h1>
-                    <button class="btn">Added <i class="material-icons icon">check</i>
+                    <button class="btn" onclick="this.innerHTML = 'Added <i class=\'material-icons icon\'>check</i>'">Add
                     </button>
                 </div>
                 <div class="square square2">
                     <h1>Fashion</h1>
-                    <button class="btn">Add</button>
+                    <button class="btn"
+                        onclick="this.innerHTML='Added <i class=\'material-icons icon\'>check</i>'">Add</button>
                 </div>
-                <div class="square square3">
-                    <h1>Music</h1>
-                    <button class="btn">Add</button>
-                </div>
-                <div class="square square4">
-                    <h1>Reading</h1>
-                    <button class="btn">Add</button>
-                </div>
+            <div class="square square3">
+                <h1>Music</h1>
+                <button class="btn"
+                    onclick="this.innerHTML = 'Added <i class=\'material-icons icon\'>check</i>'">Add</button>
             </div>
-            <a href="../index.html" class="Cbtn">Continue</a>
-        </div>
+            <div class="square square4">
+                <h1 id="name">Reading</h1>
+                <button class="btn" id="=bt1"
+                    onclick="this.innerHTML = 'Added <i class=\'material-icons icon\'>check</i>'">Add</button>
+            </div>
+            </div>
+        <button class="Cbtn" onclick="document.location='../index.html'" class="Cbtn">Continue</a></button>
+    </div>
     </div>
 </body>
 

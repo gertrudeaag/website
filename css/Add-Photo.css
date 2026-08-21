@@ -33,7 +33,7 @@
     margin-top: auto;
     width: 200px;
     height: 30px;
-    border: 20px;
+    border: 20px; 
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -45,7 +45,8 @@
 .icon { 
     display: flex;
     align-items: center;
-    padding-left:20px;
+    padding-left:0px;
+    margin-left: 20px;
 }
 html,body {
     margin:0;

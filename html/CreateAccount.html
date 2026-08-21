@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head><button class="favorite-icon">&#9825</button>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Create Account</title>
@@ -15,8 +15,8 @@
     <div class="split-container">
         <!-- LEFT SIDE: Image -->
 
-            <!-- Group 427318868.png -->
-            <img class="image" src="../images/Group 427318868.png">
+        <!-- Group 427318868.png -->
+        <img class="image" src="../images/Group 427318868.png">
 
         <!-- RIGHT SIDE:Form -->
         <div class="form-panel">
@@ -27,38 +27,40 @@
             </div>
             <!-- Title -->
             <h1>Create Account</h1>
+
             <!-- Form -->
-            <form action="#" method="POST">
+            <form id="account-form" action="#" method="POST">
                 <div class="input-group">
                     <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="John Doe">
+                    <input type="text" id="name" required placeholder="John Doe">
                 </div>
 
                 <label for="email">Email</label>
                 <div class="input-com">
 
                     <i class="material-icons icon">sentiment_satisfied</i>
-                    <input type="email" id="email" placeholder="johndoe@gmail.com">
+                    <input type="email" id="email" placeholder="johndoe@gmail.com" required>
                 </div>
                 <div class="input-group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="........">
+                    <input type="password" id="passcode" placeholder="........" required>
                 </div>
 
 
                 <button class="create-btn">
                     Create Account
                 </button>
-                <button type="button" class="btn-google">
+                <!-- <button type="button" class="btn-google">
                     <img class="google-img
                     " src="https://www.svgrepo.com/show/475656/google-color.svg" alt="Google logo">
                     Sign up with Google
-                </button>
+                </button> -->
             </form>
             <!-- Footer prompt -->
             <p class="login-prompt">Already have an account? <a href="./Add-Photo.html">Log In</a>
             </p>
         </div>
+        <script src="../app.js"></script>
 </body>
 
 </html>
